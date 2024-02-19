@@ -4,13 +4,16 @@ import { RouteConfig } from 'vue-router';
 export const constantRoutes: RouteConfig[] = [
   {
     path: '/',
-    redirect: '/login'
+    redirect: '/default'
   },
   {
-    path: '/login',
-    component: () => import('@/views/login/index.vue'),
-    // component: () => import('../views/login/index.vue'),
-    name: 'Login',
-    meta: { title: 'login' }
+    name: 'Default',
+    path: '/default',
+    component: () => import('@/views/default.vue')
+  },
+  {
+    name: 'Primary',
+    path: '/primary',
+    component: () => import('@/views/primary.vue')
   },
 ]

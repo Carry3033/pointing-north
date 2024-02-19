@@ -1,0 +1,16 @@
+<template>
+    <el-row class="mb-4">
+        <el-button
+            v-for="(btn, index) in buttons"
+            :key="index"
+            :type="btn"
+        >{{btn}}</el-button>
+    </el-row>
+</template>
+
+<script setup lang="ts">
+    import {reactive} from 'vue'
+
+    const buttons = reactive(['default', 'primary', 'success', 'info', 'warning', 'danger'])
+
+</script>
