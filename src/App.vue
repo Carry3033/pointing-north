@@ -8,6 +8,7 @@
                 :type="btn"
             >{{btn}}</el-button>
         </el-row>
+        <router-view></router-view>
     </div>
 </template>
 
