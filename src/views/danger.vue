@@ -1,6 +1,6 @@
 <template>
     <div>
-      success
+      danger
     </div>
   </template>
   

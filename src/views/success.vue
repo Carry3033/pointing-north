@@ -1,6 +1,6 @@
 <template>
     <div>
-      success
+      primary
     </div>
   </template>
   

@@ -1,6 +1,6 @@
 <template>
     <div>
-      success
+      info
     </div>
   </template>
   
